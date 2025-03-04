@@ -39,7 +39,6 @@ export function ContactSection() {
         e.preventDefault()
         setIsSubmitting(true)
 
-        // Simulate form submission
         setTimeout(() => {
             setIsSubmitting(false)
             setIsSubmitted(true)
@@ -199,13 +198,13 @@ export function ContactSection() {
                                         <h3 className="text-lg font-semibold mb-4">Connect With Me</h3>
                                         <div className="space-y-4">
                                             <a
-                                                href="mailto:contact@mariusnoroaca.com"
+                                                href="mailto:marius.noroaca@gmail.com"
                                                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                                             >
                                                 <div className="bg-purple-500/10 p-2 rounded-full">
                                                     <Mail className="h-5 w-5 text-purple-500" />
                                                 </div>
-                                                <span>contact@mariusnoroaca.com</span>
+                                                <span>marius.noroaca@gmail.com</span>
                                             </a>
                                             {socialLinks.map((link, index) => (
                                                 <a
